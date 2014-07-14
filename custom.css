@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.ui-btn-active {
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #999 ), to( #666 ));
+	background-image: -webkit-linear-gradient( #999, #666 );
+	background-image: -moz-linear-gradient( #999, #666 );
+	background-image: -ms-linear-gradient( #999, #666 );
+	background-image: -o-linear-gradient( #999, #666 );
+	background-image: linear-gradient( #999, #666 );
+	font-family: Helvetica, Arial, sans-serif
+}
+
+#credit {
+	color:#ACACAC;
+	font-size: .85em;
+}
+
+#highlight {
+	color:#1F4EA3;
+	font-weight:200;
+	background-color:#D2D9F4;
+	padding: 5px;
+	border: 1px solid;
+	border-color:#1F4EA3;
+	border-radius: 5px;
+}
+
+img.moon {
+	width: 100%;
+	margin-bottom: -300px;
+
+	}
