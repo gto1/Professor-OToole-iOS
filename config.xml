@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
-    id        = "com.phonegap.example"
+    id        = "com.openwebby.ios"
     version   = "1.0.0">
 
-<name>PhoneGap Build Application</name>
+<name>openwebby</name>
 
 <description>
-A simple PhoneGap Build application.
+The openwebby iOS app.
 </description>
 
-<author href="https://example.com" email="you@example.com">
-Your Name
+<author href="https://otoole.info" email="greg@openwebby.com">
+Dr. Greg O'Toole, Ph.D.
 </author>
+
+<!-- Screen icon declared -->
+<icon src="images/icon.png" platform="ios" density="xhdpi" />
+<!-- Generic icon declaration in case it's needed -->
+<icon src="images/icon.png" />
+
+
+<icon gap:platform="ios" height="57" src="images/icon-57.png" width="57" />
+<icon gap:platform="ios" height="72" src="images/icon-72.png" width="72" />
+<icon gap:platform="ios" height="114" src="images/icon-57-2x.png" width="114" />
+<icon gap:platform="ios" height="144" src="images/icon-72-2x.png" width="144" />
+
+<gap:splash gap:platform="ios" height="1136" src="images/screen-iphone-portrait-2x.png" width="640" />
+<gap:splash gap:platform="ios" height="480" src="images/screen-iphone-portrait.png" width="320" />
+<gap:splash gap:platform="ios" height="1536" src="images/screen-ipad-portrait.png" width="2048" />
+<gap:splash gap:platform="ios" height="2048" src="images/screen-ipad-landscape.png" width="1536" />
 
 </widget>
