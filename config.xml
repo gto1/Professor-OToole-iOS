@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
-    id        = "com.openwebby.ios"
-    version   = "1.1.0">
+    id        = "com.professor_otoole.ios"
+    version   = "1.0.0">
 
-<name>openwebby</name>
+<name>Professor O'Toole</name>
 
 <description>
-The openwebby iOS app.
+iOS app to get in touch with Professor O'Toole, IST@PSU.
 </description>
 
 <author href="https://otoole.info" email="greg@openwebby.com">
